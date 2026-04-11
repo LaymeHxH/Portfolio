@@ -48,7 +48,7 @@ const closeBtn = document.getElementById("close-btn");
 
 setTimeout(() => {
   modal.style.display = "block";
-}, 60000);
+}, 10000);
 
 closeBtn.addEventListener("click", () => {
   modal.style.display = "none";
